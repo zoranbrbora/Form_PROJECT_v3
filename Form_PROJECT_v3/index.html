@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,300italic,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="CSS/ericmeyer.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
+   </head>
+   <body>
+      
+     
+     <header class="main-header">
+       
+       <h1 class="logo">The Code Review</h1>
+      
+     </header>
+     
+     <div class="intro">
+      <h2 class="intro-title">Signup for our newsletter</h2>
+      <p class="intro-text">Get the latest news on how your code is doing right in your inbox.</p> 
+     </div>
+     
+     
+     
+     <form action="index.html" method="post">
+      
+       
+       
+       <fieldset class="contact">
+       <legend>Contact Information</legend>
+       
+         <label for="name" class="desktop">Full Name</label>
+         <input type="text" id="name" name="name" value="" placeholder="Your Name" required  pattern="[A-Za-z-0-9]+\s[A-Za-z-'0-9]+" aria-required="true" aria-describedby="name">
+         
+         <label  for="password" class="desktop">Password:</label>
+          <input type="password" id="password" name="user_password"  placeholder="Password" required>
+         
+         <label for="email" class="desktop">Email Address</label>
+         <input type="email" id="email" name="email" value="" placeholder="Your Email Address" required aria-required="true">
+         
+         <label  for="age" class="desktop">Enter Your Age</label>
+         <input type="number" size="6" id="age" name="age" min="18" max="99" value="21">
+         
+         <label  for="homepage" class="desktop">Add Your Homepage:</label>
+         <input type="url" id="homepage" name="homepage" value="" pattern="https?://.+" placeholder="Your Homepage">
+         
+         <label  class="desktop">Phone Number</label> 
+         <input type="tel" id="tel" name="user_tel" placeholder="Phone Number">
+         
+         <label  for="address" class="desktop">Street Address</label> 
+         <input type="text" id="address" name="address"  placeholder="Street address" required aria-required="true">
+         
+         <label  for="google" class="desktop">Search Google</label>
+         <input type="url" id="google" name="google" value="" pattern="https?://.+" placeholder="Google">
+         
+         <label  class="desktop">Country</label> 
+         <input type="text" id="country" name="user_country" placeholder="Country">
+         
+         <label  class="desktop">City</label> 
+         <input type="text" id="city" name="user_city" placeholder="City">
+         
+         <label  class="desktop">State</label>
+           <select id="state" name="user_state">
+              <option value="" disabled selected>Choose state</option>
+              <option value="dalmacija_state">Dalmacija</option>
+              <option value="slavonija_state">Slavonija</option>
+              <option value="istra_state">Istra</option>
+              <option value="medimurje_state">Medimurje</option> 
+           </select>
+         
+         
+         
+         <label for="zip" class="desktop">Zip Code</label> 
+         <input type="text" id="zip" maxlength="5" name="zip" placeholder="Zip" required>
+         
+         
+         <input type="reset" id="reset" name="user_reset">
+        
+      </fieldset>
+       
+      <fieldset class="newsletter">
+      <legend>Newsletter</legend>
+        
+        <label class="newsletter">Select the newsletters you would like to recieve</label>
+        <input type="checkbox" id="html" value="interest_html" name="user_interest"><label class="label-check" >HTML News</label>
+        <input type="checkbox" id="css" value="interest_css" name="user_interest"><label class="label-check" >CSS News</label>
+        <input type="checkbox" id="javascript" value="interest_javascript" name="user_interest"><label class="label-check" >Javascript News</label>
+        <input type="checkbox" id="php" value="interest_php" name="user_interest"><label class="label-check" >PHP News</label>
+        <input type="checkbox" id="python" value="interest_python" name="user_interest"><label class="label-check" for="python">Python News</label>
+        <input type="checkbox" id="rubyOnRails" value="interest_rubyOnRails" name="user_interest"><label class="label-check" >Ruby On Rails News</label>
+        
+        <label class="newsletter">Newsletter format</label>
+        <input type="radio" id="html_newsletter" value="html_format" name="user_newsletter"><label  class="radio-button">HTML</label><br>
+        <input type="radio" id="plaintext_nwesletter" value="plaintext_format" name="user_newsletter"><label  class="radio-button">Plain text</label>
+        
+        <label class="newsletter">Gender</label>
+        <input type="radio" value="male" name="gender"><label class="radio-button">Male</label><br>
+        <input type="radio" value="female" name="gender"><label  class="radio-button">Female</label><br>
+        
+        <label  class="topics">Other topics you'd like to hear about</label>
+          <textarea  name="comment"></textarea>
+      </fieldset>
+       
+       
+       
+       <button type="submit" value="Submit">Sign Up</button>
+       
+       
+     </form>
+     
+     
+     <footer class="main-footer">Copyright The Code Rewiev</footer>
+     
+  
+   </body>
+  
+</html>  

@@ -1,0 +1,49 @@
+/*
+ ======================================
+TABLETS
+=======================================
+*/
+
+@media only screen and (min-width: 759px) {
+  .desktop {
+    width: 30%;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="address"],
+  input[type="city"],
+  input[type="state"],
+  input[type="password"],
+  input[type="number"],
+  input[type="url"],
+  input[type="search"],
+  #state {
+    width: 69%;
+  }
+  
+  #zip {
+    display: inline-block;
+    width: 20%;
+  }
+}
+
+
+/*
+========================================
+DESKTOPS
+========================================
+*/
+
+
+
+@media only screen and (min-width: 960px) {
+  
+  .intro,
+  form {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+  }  
+}

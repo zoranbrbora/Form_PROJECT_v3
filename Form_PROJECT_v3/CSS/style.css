@@ -1,0 +1,260 @@
+/*
+===========================
+GENERAL STYLES
+===========================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+body { 
+  font-family: 'Ubuntu', sans-serif;
+  background: #fe8c00;
+  background: linear-gradient(to left, #fe8c00 , #f83600); 
+  color: #fff;
+}
+
+/* HEADER */
+
+.main-header {
+  font-weight: 700;
+  width: 100%;
+  margin: 0 0 4px 0;
+  text-align: center;
+  background-color: #000;
+}
+
+/* LOGO */
+
+
+.logo {
+  color: #fff;
+  padding-top: 1.3em;
+  padding-bottom: 1.3em;
+  text-transform: uppercase;
+  font-size: 1.4em;
+  color: orange;
+}
+
+/* INTRO */
+
+.intro {
+  width: 95%;
+  margin: 0 2.5% 5px 2.5%;
+  text-align: center;
+  border-bottom: 4px solid #fff;
+}
+
+.intro-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  padding-top: 1.5em;  
+}
+
+.intro-text {
+  padding: 1em 30px 2em 30px;
+  font-size: .9em;
+  
+}
+
+
+/*
+==================================
+FORM
+==================================
+*/
+
+
+form {
+  width: 95%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  text-align: left;
+  border-top: 2px solid #fff;
+}
+
+
+/* CONTACT FILEDSET */
+
+.contact {
+  border-bottom: 2px solid #fff;
+  
+}
+
+
+legend {
+  padding-top: 1.5em;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+label {
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="address"],
+input[type="city"],
+input[type="state"],
+input[type="password"],
+input[type="number"],
+input[type="url"],
+input[type="search"],
+#state {
+  display: inline-block;
+  width: 100%;
+  margin-top: 10px;
+  height: 40px;
+  padding-left: 5px;
+  border-radius: 3%;
+  background-color: #EFF0F1;
+  transition: background-color .4s ease-out;
+  box-shadow: inset 0px 0px 15px #FFE5E5;
+}
+
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="address"]:focus,
+input[type="city"]:focus,
+input[type="state"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+#state:focus,
+textarea:focus {
+  color: orange;
+  background-color: #000;
+  transition: background-color  .4s ease-in ;
+}
+
+
+#zip {
+  display: block;
+  width: 50%;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+input[type="reset"] {
+  width: 30%;
+  height: 40px;
+  margin: 30px 35%;
+  color: orange;
+  background-color: #000;
+}
+
+
+/* CHECKBOXES */
+
+
+input[type="checkbox"] {
+  height:18px;
+  width:18px;
+  padding:0;
+  margin-top: 10px;
+  margin-right: 15px;
+  display:block;
+  float:left;
+}
+
+
+.label-check{
+  display: block;
+  margin-top: 15px;
+}
+
+
+
+.newsletter {
+  font-weight: 700;
+  margin-top: 30px;
+  display: block;
+}
+
+/* RADIO BUTTONS */
+
+input[type="radio"] {
+  margin: 10px 15px 8px 4px;
+  width: 18px;
+  height: 18px;
+  vertical-align: top;
+  
+}
+
+
+
+label.radio-button {
+  font-weight: 300;
+  
+  
+}
+
+.topics {
+  margin-top: 30px;
+}
+
+
+
+textarea {
+   height: auto;
+   margin: 0;
+   outline: 0;
+   padding: 15px;
+   width: 100%;
+   box-shadow: inset 0px 0px 15px #FFE5E5;
+}
+
+button {
+  padding: 19px 39px 18px 39px;
+  text-align: center;
+  font-style: normal;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: orange;
+  background-color: #000;
+}
+
+
+/* 
+===================================
+FOOTER
+===================================
+*/
+
+.main-footer {
+  text-align: center;
+  font-size: .8em;
+  font-style: italic;
+  padding-bottom: 44px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
