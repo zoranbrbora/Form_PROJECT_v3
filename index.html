@@ -47,7 +47,7 @@
          <label  for="homepage" class="desktop">Add Your Homepage:</label>
          <input type="url" id="homepage" name="homepage" value="" pattern="https?://.+" placeholder="Your Homepage">
          
-         <label  class="desktop">Phone Number</label> 
+         <label  for="tel" class="desktop">Phone Number</label> 
          <input type="tel" id="tel" name="user_tel" placeholder="Phone Number">
          
          <label  for="address" class="desktop">Street Address</label> 
@@ -56,10 +56,10 @@
          <label  for="google" class="desktop">Search Google</label>
          <input type="url" id="google" name="google" value="" pattern="https?://.+" placeholder="Google">
          
-         <label  class="desktop">Country</label> 
+         <label  for="country" class="desktop">Country</label> 
          <input type="text" id="country" name="user_country" placeholder="Country">
          
-         <label  class="desktop">City</label> 
+         <label for="city" class="desktop">City</label> 
          <input type="text" id="city" name="user_city" placeholder="City">
          
          <label  class="desktop">State</label>
@@ -85,23 +85,23 @@
       <legend>Newsletter</legend>
         
         <label class="newsletter">Select the newsletters you would like to recieve</label>
-        <input type="checkbox" id="html" value="interest_html" name="user_interest"><label class="label-check" >HTML News</label>
-        <input type="checkbox" id="css" value="interest_css" name="user_interest"><label class="label-check" >CSS News</label>
-        <input type="checkbox" id="javascript" value="interest_javascript" name="user_interest"><label class="label-check" >Javascript News</label>
-        <input type="checkbox" id="php" value="interest_php" name="user_interest"><label class="label-check" >PHP News</label>
+        <input type="checkbox" id="html" value="interest_html" name="user_interest"><label for="html" class="label-check" >HTML News</label>
+        <input type="checkbox" id="css" value="interest_css" name="user_interest"><label for="css" class="label-check" >CSS News</label>
+        <input type="checkbox" id="javascript" value="interest_javascript" name="user_interest"><label for="javascript" class="label-check" >Javascript News</label>
+        <input type="checkbox" id="php" value="interest_php" name="user_interest"><label for="php" class="label-check" >PHP News</label>
         <input type="checkbox" id="python" value="interest_python" name="user_interest"><label class="label-check" for="python">Python News</label>
-        <input type="checkbox" id="rubyOnRails" value="interest_rubyOnRails" name="user_interest"><label class="label-check" >Ruby On Rails News</label>
+        <input type="checkbox" id="rubyOnRails" value="interest_rubyOnRails" name="user_interest"><label for="rubyOnRails" class="label-check" >Ruby On Rails News</label>
         
         <label class="newsletter">Newsletter format</label>
-        <input type="radio" id="html_newsletter" value="html_format" name="user_newsletter"><label  class="radio-button">HTML</label><br>
-        <input type="radio" id="plaintext_nwesletter" value="plaintext_format" name="user_newsletter"><label  class="radio-button">Plain text</label>
+        <input type="radio" id="html_newsletter" value="html_format" name="user_newsletter"><label for="html_newsletter"  class="radio-button">HTML</label><br>
+        <input type="radio" id="plaintext_newsletter" value="plaintext_format" name="user_newsletter"><label for="plaintext_newsletter" class="radio-button">Plain text</label>
         
         <label class="newsletter">Gender</label>
-        <input type="radio" value="male" name="gender"><label class="radio-button">Male</label><br>
-        <input type="radio" value="female" name="gender"><label  class="radio-button">Female</label><br>
+        <input type="radio" id="gender_male" value="male" name="gender"><label for="gender_male" class="radio-button">Male</label><br>
+        <input type="radio" id="gender_female" value="female" name="gender"><label  for="gender_female" class="radio-button">Female</label><br>
         
-        <label  class="topics">Other topics you'd like to hear about</label>
-          <textarea  name="comment"></textarea>
+        <label for="textarea" class="topics">Other topics you'd like to hear about</label>
+          <textarea id="textarea" name="comment"></textarea>
       </fieldset>
        
        
